@@ -1,0 +1,48 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-3 col-md-3">
+            <div class="row">
+                <div id="datepicker"></div>
+                <button class="btn btn-default " id="lasthour">Last 1 hour</button>
+                <button class="btn btn-default " id="lastday">Last 24 hours</button>
+            </div>
+        </div>
+        <div class="col-lg-9">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="chart"></div>
+                </div>
+                <div class="col-lg-12">
+                   <div class="row">
+                       <div class="col-sm-4">
+                           <div class="panel panel-default">
+                               <div class="panel-heading">Min</div>
+                               <div class="panel-body">
+                                   <span id="min_stat"></span>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-sm-4">
+                           <div class="panel panel-default">
+                               <div class="panel-heading">Avg</div>
+                               <div class="panel-body">
+                                   <span id="avg_stat"></span>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-sm-4">
+                           <div class="panel panel-default">
+                               <div class="panel-heading">Max</div>
+                               <div class="panel-body">
+                                   <span id="max_stat"></span>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
