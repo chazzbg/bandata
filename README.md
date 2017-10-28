@@ -1,23 +1,22 @@
-BanData
--
+# BanData
 
 A simple visualiser of the heart rate from the [MiBand Master](https://play.google.com/store/apps/details?id=blacknote.mibandmaster) App based on symfony4
 
-###requirements
+### Рequirements
 
 - php >7.0
 - yarn
 - composer
 - sqlite3 
 
-###How to run it 
+### How to run it 
 
-0. clone this git 
+1. `git clone https://github.com/chazzbg/bandata.git`
 1. `composer install`
-2. `yarn install`
-3. `yanr run encore dev` 
+1. `yarn install`
+1. `yanr run encore dev` 
 
-###Internals
+### Internals
 
 This app reads the database file from the app MiBand master
 
